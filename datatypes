@@ -1,0 +1,40 @@
+#Datatypes
+#Strings - a sequence of characters "jane","hello"
+message = "hello"
+X="20"
+print(X)
+print(type(X))
+print(message)
+#type()
+print(type(message))
+##NUMBERS/numeric datatypes
+#int -stores whole numbers eg 10 90 45
+y = 54
+print(y)
+print(type(y))
+#float -numbers with decimal places eg 10,41.5
+tax=13.5
+print(tax)
+print(type(tax))
+#complex- has whole part and an imaginary part eg 2+5j
+z = 9+5j
+print(z)
+print(type(z))
+#boolean - stores True or False value
+is_student=True
+print(is_student)
+print(type(is_student))
+#casting-int(),float(),str(),bool
+a=20
+print(type(a))
+new_num=float(a)
+print(new_num)
+print(type(new_num))
+#int()
+price = 34.67
+print(int(price))
+print(f"{float(price):.1f}")
+#cast str to int()
+num = "45" 
+my_int=int(num)
+print(type(my_int))
